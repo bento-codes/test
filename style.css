@@ -1,0 +1,64 @@
+/* h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+
+p {
+    background-color: pink;
+} */
+
+
+.heading {
+    font-size: 1rem;
+}
+
+.content {
+    font-size: 2rem;
+}
+
+/* element selector */
+
+h2 {
+    font-size: 3rem ;
+}
+
+
+
+ /*  Combinator selectors */
+
+/* all Descendants selector */
+
+div p {
+    background-color: aqua;
+}
+
+/* (direct) child selector  */
+
+ul > li {
+    color: brown;
+}
+
+/* first - sibiling selector */
+
+h2 + p {
+    color: blue;
+}
+
+/* subsequent - sibiling selector */
+
+div ~ p {
+    color: blueviolet;
+}
+
+body { 
+    font-family: "PT Serif";
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Method get all content of the form appears in the search bar
+     In method post it doesn't , it's used for forms with confidential data-->
+    <form action="arquivo.js" method="post">
+        <fieldset>
+            <legend>
+                <h1>Formulário de incrição</h1>
+            </legend>
+
+            <label for="firstName">Nome:</label>
+        <input type="text" id="firstName" name="fName" placeholder="Escreva o seu nome aqui"> <br>
+        <label for="lastName">Apelido:</label>
+        <input type="text" id="lastName" name="lName"> <br>
+        <label for="birthDate">Data de Nascimento</label>
+        <input type="date" id="birthDate" name="bDate" required> <br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="email"> <br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="passcode" autocomplete="off"> <br>
+        <label for="adress">Morada:</label>
+        <input type="password" id="pass" name="passcode">
+
+        <fieldset>
+            <legend>Em qual país você vive?</legend>
+            <input type="radio" id="br" name="País">
+            <label for="br">Brasil</label>
+            <input type="radio" id="pt" name="País">
+            <label for="pt">Portugal</label>
+            <input type="radio" id="ru" name="País">
+            <label for="ru">Rússia</label>
+        </fieldset>
+
+        <legend>Quais conselhos você já visitou?</legend>
+        <input type="checkbox" id="lis" name="cLisboa">
+        <label for="lis">Lisboa</label>
+        <input type="checkbox" id="sin" name="cSintra">
+        <label for="sin">Sintra</label>
+        <input type="checkbox" id="ama" name="cAmadora">
+        <label for="ama">Amadora</label> <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+
+        </fieldset>
+
+        
+        
+
+
+
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="arquivo.php" method="post">
+        <fieldset>
+            <legend>Formulário de contacto do BYTES</legend> <br>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Insira o seu nome aqui"><br> <br>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail"> <br> <br>
+
+            <legend>Gender:</legend>
+            <input type="radio" name="gender" id="gmale">
+            <label for="gmale">Masculino</label> <br>
+            <input type="radio" name="gender" id="fmale">
+            <label for="fmale">Femenino</label> <br> <br>
+
+            <label for="date">Data atual</label>
+            <input type="date" id="date" name="aDate" required> <br> <br>
+
+            <label for="turma">Turma:</label>
+            <select name="class" id="turma">
+                <option value="" disabled selected>-----Selecione uma turma-----</option>
+                <option value="junior_full_stack_developer">Junior Full Stack developer</option>
+                <option value="data_analyst">Data Analyst</option>
+            </select> <br> <br>
+
+            <label for="msg">Mensagem</label>
+            <textarea name="Msg" id="msg" minlength="4" maxlength="20"></textarea><br><br>
+
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* ex 1 */
+
+/* h1 {
+    color: blue;
+}
+p {
+    color: green;
+} */
+
+/* ex 2 */
+
+/* div {
+    background-color: yellow;
+    text-align: center;
+}
+
+h2{
+    color: red;
+} */
+
+/* ex 3 */
+
+/* h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+} */
+
+/* ex 4 */
+
+/* 
+div {
+    background-color: black;
+    color: white;
+} */
+
+/* ex 5 */
+
+h2 + p {
+    font-size: 25px;
+}
