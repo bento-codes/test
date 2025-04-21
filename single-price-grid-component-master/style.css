@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Ligth-Gray:  hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --Font: "Karla";
+    --Ligth: 100;
+    --Bold: 700;
+}
+
+body {
+    background-color: white;
+    font-family: var(--Font);
+}
+.container {
+    margin: 100px auto;
+    width: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.intro {
+    line-height: 1.7rem;
+    color: rgba(128, 128, 128, 0.603);
+}
+section {
+    padding: 30px;
+    display: grid;
+    gap: 20px;
+}
+header {
+    color: var(--Cyan);
+}
+.green {
+    color: var(--Bright-Yellow);
+    font-weight: 700;
+}
+.two , .three {
+    color: var(--Ligth-Gray);
+}
+.two {
+    background-color: var(--Cyan);
+}
+
+.three {
+    background-color: hsl(179, 59%, 47%);
+}
+button {
+    background-color: var(--Bright-Yellow);
+    color: white;
+    font-family: "Karla";
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+
+}
+
+.acess {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.416);
+    margin-left: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.three > p {
+    color: rgba(255, 255, 255, 0.611);
+}
